@@ -34,7 +34,7 @@ namespace stackTest.Palindromo
                     c = (Char)pilaTxt.quitarChar();
                     esPalindromo = pal[i++] == c; // evalua si la sigueinte letra es igual
                 }
-                pilaTxt.LimpiarPila();
+                pilaTxt.limpiarPila();
                 if (esPalindromo)
                 {
                     Console.WriteLine($"La palabra es palindromo");

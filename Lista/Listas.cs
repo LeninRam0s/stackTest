@@ -12,7 +12,7 @@ namespace stackTest.Lista
 
         public int longitud { get => _longitud; set => _longitud = value; }
 
-        public MyLista()
+        public Listas()
         {
             cabeza = null;
             cola = null;

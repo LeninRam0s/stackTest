@@ -1,4 +1,5 @@
-﻿using System;
+﻿using stackTest.ListaSimple;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -7,12 +8,12 @@ namespace stackTest.Pilas
     class PilaListaEnlazada
     {
         private int cima;
-        private MyListaSimple listaPila;
+        private ListaSimpleA listaPila;
 
         public PilaListaEnlazada()
         {
             cima = -1; // condicion de pila vacia.
-            listaPila = new MyListaSimple();
+            listaPila = new ListaSimpleA();
         }
 
         public void insertar(Object elemento)
@@ -69,4 +70,4 @@ namespace stackTest.Pilas
         }
     }
 }
-}
+
